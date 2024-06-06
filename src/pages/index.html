@@ -2,6 +2,7 @@
 <html lang="en" prefix="og:http://ogp.me/ns#">
   <head>
     <title>Greenwood</title>
+    <script type="module" src="../components/hero-banner/hero-banner.js" data-gwd-opt="static"></script>
     <script type="module" src="../components/footer/footer.js" data-gwd-opt="static"></script>
     <script
       type="module"
@@ -12,11 +13,11 @@
     <link rel="stylesheet" href="../styles/main.css" />
 
     <style>
-      /* TODO should come from shared layout */
+      /* TODO should probably come from shared layout? */
       section.top {
         display: block;
         margin: 0 auto;
-        width: 80%;
+        width: 60%;
       }
     </style>
   </head>
@@ -27,10 +28,11 @@
         link="/blog/release/v0.30.0/"
         title="We just launched v0.30.0"
       ></app-latest-post>
+
+      <app-hero-banner></app-hero-banner>
     </section>
 
-    <h1>Welcome to Greenwood!</h1>
-
     <app-footer></app-footer>
+
   </body>
 </html>

@@ -1,4 +1,5 @@
 @import "../../node_modules/open-props/src/props.borders.css";
+@import "../../node_modules/open-props/src/props.fonts.css";
 @import "../../node_modules/open-props/src/props.shadows.css";
 @import "../../node_modules/open-props/src/props.sizes.css";
 
@@ -13,7 +14,8 @@
     format("truetype");
 }
 
-:root {
+:root,
+:host {
   --color-primary: #016341;
   --color-secondary: #0e0f0c;
   --color-tertiary: #151818;
@@ -29,6 +31,6 @@
 
 * {
   font-family: var(--font-primary);
-  font-size: var(--size-px-3);
+  font-size: var(--font-size-3);
   box-sizing: border-box;
 }
