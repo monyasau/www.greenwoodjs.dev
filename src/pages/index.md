@@ -32,11 +32,7 @@ imports:
 
 <app-hero-banner></app-hero-banner>
 
-  <app-walkthrough>
-    <span slot="label"></span>
-    <h3 slot="text"></h3>
-    <div slot="snippet"></div>
-  </app-walkthrough>
+<app-walkthrough></app-walkthrough>
 
   <div class="walkthrough-card card1">
     <span>HTML First</span>
